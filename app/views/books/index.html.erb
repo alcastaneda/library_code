@@ -5,3 +5,5 @@
 <%= link_to "show", book_path(book.id)%>
 <%= link_to 'edit', edit_book_path(book.id)%>
   <% end %>
+
+  <%= link_to 'log out', logout_path, method: :delete %>
