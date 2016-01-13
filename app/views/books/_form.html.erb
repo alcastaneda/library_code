@@ -1,0 +1,7 @@
+<%= form_for(@book) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %><br>
+  <%= f.hidden_field :check_out,  value: @check_out %>
+
+  <%= f.submit %>
+<% end %>
